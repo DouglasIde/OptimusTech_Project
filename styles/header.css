@@ -1,0 +1,15 @@
+.cabecalho {
+    display: flex;
+}
+
+.container_titulo {
+    color: var(--preto);
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0.5em;
+}
+
+.container_titulo:hover {
+    color: var(--vinho-escuro);
+}

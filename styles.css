@@ -1,0 +1,9 @@
+@import url(styles/header.css);
+
+:root {
+    --vinho-escuro: #8E2424;
+    --preto: #101828;
+    --cinza-claro: #667085;
+
+    --fonte-principal: "Inter";
+}
