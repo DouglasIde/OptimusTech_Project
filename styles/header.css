@@ -1,5 +1,6 @@
 .cabecalho {
     display: flex;
+    align-items: center;
 }
 
 .container_titulo {
@@ -12,4 +13,20 @@
 
 .container_titulo:hover {
     color: var(--vinho-escuro);
+}
+
+.lista_navbar {
+    list-style-type: none;
+    padding: 0 32px;
+    margin-left: 10%;
+}
+
+
+.opcao_link {
+    color: var(--cinza-claro);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 1em;
 }
