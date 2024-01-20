@@ -1,13 +1,18 @@
 @import url(styles/header.css);
 @import url(styles/cabecalho.css);
 @import url(styles/metricas.css);
-@import 'animate.css';
+@import url(styles/vagas.css);
 
 :root {
     --vinho-escuro: #8E2424;
-    --preto: #101828;
+    --preto: #000000;
     --cinza-claro: #667085;
     --branco: #fff;
     
     --fonte-principal: "Inter";
 }
+
+/* CSS FRAMEWORKS 
+
+https://animate.style/ - ANIMATION
+*/
