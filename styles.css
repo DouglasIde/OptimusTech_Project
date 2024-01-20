@@ -1,6 +1,7 @@
 @import url(styles/header.css);
 @import url(styles/cabecalho.css);
 @import url(styles/metricas.css);
+@import 'animate.css';
 
 :root {
     --vinho-escuro: #8E2424;
