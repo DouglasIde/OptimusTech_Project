@@ -38,6 +38,7 @@
     color: var(--vinho-escuro);
 }
 
+/* ANIMAÇÃO DA FAIXA DINAMICA */
 .opcao_link::before {
     content: " ";
     position: absolute;
@@ -94,6 +95,7 @@
     background-color: #acacac;
 }
 
+/* PONTEIRO DE CLIQUE */
 .container_img:hover,
 .botao_login:hover,
 .botao_cadastro:hover,
