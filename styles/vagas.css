@@ -43,3 +43,52 @@
     height: auto;
 }
 
+/* VAGAS OPÇÕES */
+
+.card_vagas--position {
+    display: grid;
+    width: 100%;
+    align-items: stretch;
+}
+
+.card_vagas {
+    font-family: var(--fonte-principal);
+    align-items: center;
+    gap: 2em;
+    justify-content: flex-start;
+    display: column;
+}
+
+.card_vagas_main{
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.card_vagas_selecao {
+    border: 2px solid rgba(234, 236, 240, 1);
+    width: 64%;
+    align-items: center;
+    margin-top: 0.5em;
+    padding: 2em 2em 3em 2em;
+    gap: 24px;
+    border-radius: 16px;
+}
+
+.card_descricao_vagas {
+    display: inline-block;
+    flex-direction: row;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza-claro);
+    margin-top: 1em
+}
+
+.card_position_descricao {
+    margin-left: 2em;
+}
+
+.card_titulo_vagas:hover {
+    color: var(--vinho-escuro);
+    cursor: pointer;
+}
+
