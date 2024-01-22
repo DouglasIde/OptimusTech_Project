@@ -49,6 +49,7 @@
     display: grid;
     width: 100%;
     align-items: stretch;
+    margin-left: 15%;
 }
 
 .card_vagas {
@@ -62,14 +63,16 @@
 .card_vagas_main{
     text-align: left;
     justify-content: flex-start;
+    margin-top: 2em;
 }
 
 .card_vagas_selecao {
     border: 2px solid rgba(234, 236, 240, 1);
     width: 64%;
     align-items: center;
-    margin-top: 0.5em;
-    padding: 2em 2em 3em 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 1em 2em 2em 2em;
     gap: 24px;
     border-radius: 16px;
 }
