@@ -13,3 +13,7 @@
     
     --fonte-principal: "Inter";
 }
+
+body { 
+    overflow-x: hidden; 
+}
